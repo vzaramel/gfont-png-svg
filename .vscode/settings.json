@@ -1,0 +1,6 @@
+{
+  "remote.WSL.useShellEnvironment": false,
+  "files.associations": {
+    "stb_truetype.h": "c"
+  }
+}

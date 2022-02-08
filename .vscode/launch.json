@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "(gdb) Launch",
+          "type": "cppvsdbg",
+          "request": "launch",
+          "program": "${workspaceFolder}/zig-out/bin/faeton.exe",
+          "args": [],
+          "stopAtEntry": false,
+          "cwd": "${workspaceFolder}",
+          "environment": [],
+          "console": "internalConsole",
+          "preLaunchTask": "build",
+      },
+      {
+        "name": "(gdb) Run Tests",
+        "type": "cppvsdbg",
+        "request": "launch",
+        "program": "${workspaceFolder}/zig-out/bin/blah",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceFolder}",
+        "environment": [],
+      },
+  ]
+}

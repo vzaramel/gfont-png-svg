@@ -1,0 +1,6 @@
+.history
+zig-cache
+zig-out
+*.exe
+*.pdb
+build
